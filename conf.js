@@ -6,7 +6,7 @@ exports.config = {
       specs: ['spec.js'],
      framework: 'jasmine2' ,
       onPrepare: function() {
-          var jasmineReporters = require('C:/Users/RE041943/Desktop/guru/node_modules/jasmine-reporters');
+          var jasmineReporters = require('C:/Users/node_modules/jasmine-reporters');
           jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter(null, true, true)
           );
      }
