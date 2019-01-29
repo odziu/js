@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="Enter GURU99 Name" timestamp="2019-01-28T14:27:20" hostname="localhost" time="2.44" errors="0" tests="1" skipped="0" failures="1">
-  <testcase classname="Enter GURU99 Name" name="should add a Name as GURU99" time="2.434">
-   <failure type="toEqual" message="Expected &amp;apos;Hello GURU99!&amp;apos; to equal &amp;apos;Hello ccc GURU99!&amp;apos;."><![CDATA[Error: Failed expectation
-    at UserContext.it (C:\Users\Oleh\js_tart\spec.js:6:38)
-    at process._tickCallback (internal/process/next_tick.js:68:7)]]>
-   </failure>
+ <testsuite name="Calculator" timestamp="2019-01-29T14:30:43" hostname="localhost" time="3.032" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="Calculator" name="should calculate the sum of two numbers" time="3.028">
   </testcase>
  </testsuite>
 </testsuites>

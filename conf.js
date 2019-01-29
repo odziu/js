@@ -1,6 +1,6 @@
 exports.config = {
       // seleniumAddress: 'http://localhost:4444/wd/hub',
-      baseUrl: '', // you can set your URL globally
+      baseUrl: 'http://juliemr.github.io/protractor-demo', // you can set your URL globally
       SELENIUM_PROMISE_MANAGER: false, // but we still use this piece of shit
       capabilities: {
           'browserName': 'chrome'
